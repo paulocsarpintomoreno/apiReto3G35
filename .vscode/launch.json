@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Reto3Application<Reto3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "Domingo_Reto3.Reto3.Reto3Application",
+            "projectName": "Reto3",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Reto3Application<Reto3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "reto3.reto3.Reto3Application",
+            "projectName": "Reto3",
+            "args": ""
+        }
+    ]
+}

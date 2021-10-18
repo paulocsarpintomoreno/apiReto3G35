@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jsm/agregarScript.js"></script>
+    <script src="jsm/listarScript.js"></script>
+    <script src="jsm/borrarScript.js"></script>
+    <script src="jsm/editarScript.js"></script>
+</head>
+<body>
+
+    <li><a href="index.html">REGRESAR A MENU</a></li>
+
+    <h1>TABLA MESSAGETEXT</h1>
+    <input type="number" id="numId" placeholder="Id">
+    <input type="text" id="messagetext" placeholder="MessageText">
+    <button onclick="agregar()" id="btnAgregar">Agregar</button>
+    <button onclick="listar()" id="btnListar">Listar</button>
+    <button onclick="actualizar()" id="btnGuardar">GuardarEdicion</button>
+    
+    <div id="listado"></div>
+    
+
+    
+</body>
+</html>
