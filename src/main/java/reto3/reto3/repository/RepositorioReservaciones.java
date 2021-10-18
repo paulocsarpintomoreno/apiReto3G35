@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package reto3.reto3.repository;
 
 import java.util.List;
@@ -12,13 +8,9 @@ import org.springframework.stereotype.Repository;
 import reto3.reto3.model.Reservaciones;
 import reto3.reto3.repository.crud.InterfaceReservaciones;
 
-/**
- *
- * @author USUARIO
- */
 @Repository
 public class RepositorioReservaciones {
-       @Autowired
+    @Autowired
     private InterfaceReservaciones crud4;
 
     public List<Reservaciones> getAll(){

@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package reto3.reto3.service;
 
 import java.util.List;
@@ -12,10 +8,6 @@ import org.springframework.stereotype.Service;
 import reto3.reto3.model.Audience;
 import reto3.reto3.repository.RepositorioAudience;
 
-/**
- *
- * @author USUARIO
- */
 @Service
 public class ServiciosAudience {
      @Autowired
